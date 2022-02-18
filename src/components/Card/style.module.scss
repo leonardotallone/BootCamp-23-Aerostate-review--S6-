@@ -1,0 +1,16 @@
+.card {
+  background-color: rgb(192, 200, 207);
+  border-radius: 1rem;
+  width: 25rem;
+  margin: 1rem;
+  height: 16rem;
+  .entry {
+    margin: 1rem;
+    span {
+      background-color: #fff;
+    }
+    svg {
+      color: #1890ff;
+    }
+  }
+}

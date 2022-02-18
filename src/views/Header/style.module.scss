@@ -1,0 +1,26 @@
+header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+
+  .brand {
+    :global {
+      span.ant-avatar {
+        background-color: #1890ff;
+      }
+    }
+    svg {
+      color: #fff;
+    }
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    p {
+      margin: 0 5px;
+    }
+  }
+}
